@@ -13,7 +13,7 @@ body
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid #000;
-    animation; animateText 7s steps(80) 1s 1 normal both, blinkCursor 400ms steps(90) infinite normal;
+    animation: animateText 7s steps(80) 1s 1 normal both, blinkCursor 400ms steps(90) infinite normal;
 }
 @keyframes animateText
 {
