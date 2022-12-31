@@ -23,7 +23,7 @@ body
         width: 24em;
     }
 }
-@keframes blinkCursor
+@keyframes blinkCursor
 {
     from{
         border-right-color: rgba(0,0,0);    
