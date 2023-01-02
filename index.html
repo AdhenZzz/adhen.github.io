@@ -7,46 +7,18 @@
 <body>
 
 	<div class="container">
-		<h2><span>Cukup sekian yang dapat saya berikan</span> Web Akan Terhapus Dalam</h2>
+		<h2><span>Cukup sekian yang dapat saya berikan</span> Web Akan Terhapus dalam</h2>
 
 		<div class="countdown">
-			<div id="hari">NA</div>
-			<div id="jam">NA</div>
-			<div id="menit">NA</div>
-			<div id="detik">NA</div>
+			<div id="hari">2</div>
+			<div id="jam">3</div>
+			<div id="menit">54</div>
+			<div id="detik">37</div>
 		</div>
-		<h3>Terimakasih telah berkunjung&#128522;</h3>
+		<h3>Penghapusan Web DIBATALKAN</h3>
+		<h4>Pantau terus dan tunggu konten-konten yang lainnya</h4>
+		<h5>Terimakasih&#128522;</h5>
 	</div>
-
-	<script type="text/javascript">
-
-		var countDate = new Date('Jan 05 2023 00:00:00').getTime();
-
-		function newYear(){
-			var now = new Date().getTime();
-			gap = countDate - now;
-
-			var detik = 1000;
-			var menit = detik * 60;
-			var jam = menit * 60;
-			var hari = jam * 24;
-
-			var h = Math.floor(gap / (hari));
-			var j = Math.floor( (gap % (hari)) / (jam) );
-			var m = Math.floor( (gap % (jam))  / (menit) );
-			var d = Math.floor( (gap % (menit))  / (detik) );
-
-			document.getElementById('hari').innerText = h;
-			document.getElementById('jam').innerText = j;
-			document.getElementById('menit').innerText = m;
-			document.getElementById('detik').innerText = d;
-
-		}
-		setInterval( function(){
-			newYear();
-		}, 1000)
-
-	</script>
 
 </body>
 </html>
