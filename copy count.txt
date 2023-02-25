@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hitungan Mundur Menuju Penghapusan</title>
+	<link rel="stylesheet" type="text/css" href="count.css">
+</head>
+<body>
+
+	<div class="container">
+		<h2><span>Cukup sekian yang dapat saya berikan</span> Web Akan Terhapus dalam</h2>
+
+		<div class="countdown">
+			<div id="hari">2</div>
+			<div id="jam">3</div>
+			<div id="menit">54</div>
+			<div id="detik">37</div>
+		</div>
+		<h3>Penghapusan Web DIBATALKAN</h3>
+		<h4>Pantau terus dan tunggu konten-konten yang lainnya</h4>
+		<h5>Terimakasih&#128522;</h5>
+	</div>
+
+</body>
+</html>
 *{
 	margin: 0;
 	padding: 0;
