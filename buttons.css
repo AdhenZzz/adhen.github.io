@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: black;
+}
+.container{
+	margin: auto;
+}
+button{
+	padding: 18px 60px;
+	margin: 20px;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	transition: .4s ease-in;
+}
+.btn-1:hover{
+	background-color: blueviolet;
+	box-shadow: 0px 0px 5px blueviolet, 0px 0px 25px blueviolet, 0px 0px 50px blueviolet;
+	border-radius: 5px;
+}
+.btn-2:hover{
+	background-color: yellow;
+	box-shadow: 0px 0px 5px yellow, 0px 0px 25px yellow, 0px 0px 50px yellow;
+	border-radius: 5px;
+}
+.btn-3:hover{
+	background-color: lightgreen;
+	box-shadow: 0px 0px 5px lightgreen, 0px 0px 25px lightgreen, 0px 0px 50px lightgreen;
+	border-radius: 5px;
+}
